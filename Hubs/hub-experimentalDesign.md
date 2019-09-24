@@ -11,14 +11,18 @@ synopsis:
 ### References on the considerations of experimental design
 
 
-* Read the chapter about experimental design [here](https://github.com/florianhartig/ResearchSkills/raw/master/Labs/Statistics/Script/EssentialStatistics.pdf)
+* Read the chapter about experimental design [here](https://www.dropbox.com/s/8fmh10fdn6jd2xb/EssentialStatistics.pdf?dl=0)
 
 
 ### Power analysis
 
+Power analysis tells you how many replicates you need (sample size)
+
 * [QuickR overview](http://www.statmethods.net/stats/power.html)
 * see [session 4](https://github.com/biometry/APES/tree/master/LectureNotes/MixedEffectModels/Session4) of our mixed model lecture series, at the very end. 
 
+* http://bartomeuslab.com/2015/10/23/power-analysis-for-mixed-models/
+* https://github.com/pitakakariki/simr
 
 
 ### Questionnaires

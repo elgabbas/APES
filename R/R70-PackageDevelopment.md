@@ -6,6 +6,8 @@ category: r
 
 Package development is a lot easier than you think. Follow the steps below, and you should have no problem. 
 
+## Basics
+
 ### Compiling a package
 
 Assuming you have the package in a local folder, and work with RStudio (both recommended)
@@ -35,13 +37,38 @@ We won't even bother explaining how to modify this file, because it doesn't make
 * Read [here](https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html) about how to work with Roxygen
 * The easiest way to do this during package development is to enable tick the Roxygen options in RStudio, project options, and then you can create the man files in the build menu
 
-### Advanced topics and further reading 
+## Advanced topics and further reading 
+
+* [Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf)
+* [A Quickstart Guide for Building Your First R Package](https://methodsblog.wordpress.com/2015/11/30/building-your-first-r-package/)
 
 Before you go on with package developments, read [this](http://r-pkgs.had.co.nz/) which explains all essentials in more detail!
 
-Special topics 
+Special topics
 
+* [Imports vs Depends](http://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends)
 * Compiled code in the package see [here](http://r-pkgs.had.co.nz/src.html)
 * RCPP (integration or R and C++) see [here](http://dirk.eddelbuettel.com/code/rcpp.html)
 * Boost see [here](http://dirk.eddelbuettel.com/code/bh.html)
 * Testing see [here](http://r-pkgs.had.co.nz/tests.html#test-workflow)
+
+## Submitting to CRAN tips / checklist 
+
+Especially if you do this for the first time, read
+
+* The official [CRAN Policy](https://cran.r-project.org/web/packages/policies.html)
+* Hadley's release [recommendations](http://r-pkgs.had.co.nz/release.html)
+* Google for experience with CRAN submission to see what people struggle with - CRAN is super strict about spelling, capitalization, use of " and ' and so on - if the checks give you a warning, fix it
+
+Checklist for submission 
+
+1. Update your R system (ideally)
+2. Run unit tests and CRAN checks in Rstudio, fix all the issues
+3. Advance version numbers, readme, vignette, date, etc. 
+4. Run again local tests now including 
+  * Unit and Check in RStudion
+  * Reverse dependencies
+  * [winbuilder](https://win-builder.r-project.org/) on stable and dev
+  * Ubuntu (via Travis-CI)
+5. Push new version to GH
+6. Submit to CRAN

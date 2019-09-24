@@ -6,6 +6,17 @@ permalink: /Glossary/
 labels: main
 ---
 
+
+### Credible Interval
+
+A (Bayesian) crebile interval for a parameter is the range in which the true parameter lies with a probability of 95%
+
+
+### Confidence interval
+
+A (frequentist) confidence interval is a measure of uncertainty around a point estimate for a parameter. The definition of the CI is, as all frequentististic indicators, via error rates under repeated application of the method: a correctly calibrated 95% CI, under repeated sampling, will contain the true parameter in 95% of the cases. A frequent misunderstanding is that, for ONE given experiment, we are in general NOT 95% certain that the true parameter is cotained in teh CI. The interval with these properties is called the credible interval (see above). See discussion [here](http://stats.stackexchange.com/questions/6652/what-precisely-is-a-confidence-interval).
+
+
 ### Degrees of freedom
 
 Degrees of freedom: for simple models, the number of parameters. 
@@ -35,4 +46,4 @@ where the * notation is short for adding variables as main effects and interacti
 
 Given a statistical model, a "normal" or "simple" null hypothesis specifies a single value for the parameter of interest as the "base expectation". A composite null hypothesis specifies a range of values for the parameter. 
 
-Given a null hypothesis H0 specified by a statistical model, the p-value is the probability to obtain the observed or more extreme data given H0. If p < alpha, we say we have significant evidence against H0. For details, see the [section on hypothesis testing](http://biometry.github.io/APES/Stats/stats12-basic_tests.html)
+Given a null hypothesis H<sub>0</sub> specified by a statistical model, the p-value is the probability to obtain the observed or more extreme data given H<sub>0</sub>. If p < alpha, we say we have significant evidence against H<sub>0</sub>. For details, see the [section on hypothesis testing](http://biometry.github.io/APES/Stats/stats12-basic_tests.html)

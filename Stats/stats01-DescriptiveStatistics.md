@@ -6,6 +6,7 @@ category: stats
 
 Descriptive statistics is the branch of statistical methods that basically display data, but do not directly draw conclusions from the data.
 
+Note: there is an entire chapter on descriptice statistics in the [Essential Statistics](https://www.dropbox.com/s/8fmh10fdn6jd2xb/EssentialStatistics.pdf?dl=0) lecture notes
 
 ## The data 
 
@@ -28,7 +29,7 @@ Experience shows that there is certain tendency of beginners to use categorical 
 ## Types of descriptive statstics
 
 * Plotting and visualisation
- * [Plotting with R](https://github.com/biometry/APES/blob/master/R/R40-plottingInR.md)
+ * [Plotting with R](http://biometry.github.io/APES/R/R40-plottingInR.html)
 * Transformations and summary statistics
 
 
